@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 3000px;
+}
+.container-header{
+    width: 80%;
+    margin:auto;
+}
+
+header{
+    width: 100%; 
+    height: 110px;
+/* background-color: rgb(255, 249, 252); */
+overflow: auto;
+position:absolute;
+top: 25px;
+left: 0;
+
+}
+img{
+    margin-top: 5px;
+}
+.list1{
+    float: right;
+    margin-right: 300px;
+    margin-top: -50PX;
+    
+    }
+    .list1 li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    text-transform: capitalize;
+    }
+    .list1 li a{
+    text-decoration: none;
+    color:rgb(79, 86, 88);
+    font-size: 25px;
+    font-style: italic;
+    }
+    .list1 li a:hover{
+        padding: 5px;
+        color: rgb(229, 72, 250);
+        }
+    .icon{
+        float: right;
+        margin-right: 10px;
+        margin-top: -50px;
+        color: rgb(195, 115, 202);
+        
+        }
+
+        .icon li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 10px;
+            text-transform: capitalize;
+        }
+        .icon li:hover{
+            padding: 5px;
+            color: rgb(233, 126, 192);
+        }
+        /* //////////////////////////////////////////////////////////////////////// */
+        .section1{
+            width: 80%;
+            height: 100vh;
+            position:relative;
+            top: 160px;
+            
+           
+            margin: auto;
+
+        }
+      
+         .img{
+            width: 100%;
+            height: 450px;
+            background-image: url(../image/offer\ \(1\).jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+                position: relative;
+        }
+        h1{
+            position: absolute;
+            font-size: 50px;
+            margin-top: 100px;
+            margin-left: 50px;
+            color: white;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1:hover{
+            background-color: rgb(148, 138, 138);
+            /* color: aquamarine; */
+        }
+        button{
+            width: 150px;
+            height: 50px;
+            position: absolute;
+            font-size: 20px;
+            font-style: italic;
+            top: 190px;
+            background-color: rgb(76, 8, 78);
+            color: white;
+            left: 200px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: rgb(247, 170, 236);
+            color: black;
+        }
+        /* //////////////////////////////////////////////// */
+        .h2{
+            margin-left: 39%;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: rgb(114, 52, 111);
+            font-style: italic;
+            font-size: 45px;
+        }
+        .line1{
+            width: 200px;
+            height: 3px;
+            margin: auto;
+            background-color: rgb(156, 147, 147);
+            border-radius: 50%;
+            margin-top: -20px;
+            margin-bottom: 20px;
+            
+        }
+        .line1:hover{
+            width: 300px;
+            height: 4px;
+            background-color: aquamarine;
+        }
+      
+        .section2{
+            /* margin-top: 10px; */
+            width: 100%;
+            height: 150vh;
+        }
+        .part1{
+            width: 90%;
+            margin-left: 10%;
+        }
+        .Special1{
+               float: left;
+               width: 20%;
+               margin-left: 2%;     
+        } 
+        .h1{
+            margin-left: 20px;
+            margin-bottom: 30px;
+            color: rgb(138, 126, 126);
+        }
+        .h1:hover{
+            background-color: rgb(180, 162, 180);
+            color: white;
+        }
+    .part2{
+       margin-left: 10%;
+       margin-top: 200px;
+    }
+    .Special2{
+        float: left;
+        background-color: rgb(143, 130, 139);
+        margin-left: 1.5%;
+        /* border: 6px solid rgb(140, 226, 238); */
+    }
+    .Special2:hover{
+        padding: 10px;
+    }
+    .Special2part2 {
+        float:left;
+        margin-left: 12%;
+        position: relative;
+    }
+    p{
+        position: absolute;
+        margin-top: -250px;
+        font-size: 20px;
+        color: rgb(240, 230, 237);
+    }
+    p:hover{
+        background-color: rgb(165, 100, 179);
+    }
+    .line2{
+           width: 90%;
+           height: 3px;
+           margin: auto;
+           background-color: rgb(82, 36, 78);
+           margin-top: -150px;
+    } 
+    /* //////////////////////////////////////////////////////////////////// */
+
+
+    .h3{
+        margin-left: 38%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: rgb(114, 52, 111);
+        font-style: italic;
+        font-size: 45px;
+    }
+    .line3{
+        width: 200px;
+        height: 3px;
+        margin: auto;
+        background-color: rgb(156, 147, 147);
+        border-radius: 50%;
+        margin-top: -20px;
+        margin-bottom: 20px;
+ } 
+ .line3:hover{
+    width: 300px;
+    height: 4px;
+    background-color: rgb(248, 190, 240);
+ }
+ .Featured{
+    width: 100%;
+
+
+ }
+ .part3{
+    width: 90%;
+    margin: auto;
+ }
+ .Products1{
+    float: left;
+    width: 25%;
+    /* background-color: aquamarine; */
+    margin-left: 5%;
+    /* position: relative; */
+    margin-top: 50px;
+ }
+ .Products1:hover{
+   
+    opacity: 0.5;
+ }
+
+ .price{
+    margin-left: 40px;
+    font-size: 30px;
+    /* position: relative; */
+    color: rgb(190, 107, 177);
+   
+ }
+      
+ .list2{
+    float:right;
+    margin-right: 450px;
+    /* margin-top: -50PX; */
+    
+    }
+    .list2 li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    text-transform: capitalize;
+    }
+    .list2 li a{
+    text-decoration: none;
+    color:rgb(17, 17, 17);
+    font-size: 25px;
+    font-style: italic;
+    }
+    .list2 li a:hover{
+        padding: 5px;
+        color: rgb(169, 18, 189);
+        }
+       .part4{
+        width: 90%;
+        /* margin-left: 50%; */
+        margin-left: 10%;
+       }
+       .Products2{
+        float: left;
+        width: 25%;
+        margin-left: 6%;
+        /* position: relative; */
+        margin-top: 30px;
+        /* background-color: aqua; */
+     }
+     .Products2:hover{
+        opacity: 0.6;
+     }
+     /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+     footer{
+        background-color :white;
+        width: 100%;
+        height: 400px;
+        margin-top: 1100px;
+     } 
+     footer img{
+        margin-top: 5%;
+        margin-left: 35%;
+     }
+
+
+
